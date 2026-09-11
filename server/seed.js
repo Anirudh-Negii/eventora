@@ -11,61 +11,61 @@ const users = [
   {
     name: "Anirudh Negi",
     email: "anirudh@eventora.com",
-    password: "password123",
+    password: "admin@567",
     role: "admin",
   },
   {
     name: "Head Admin",
     email: "headadmin@eventora.com",
-    password: "password123",
+    password: "admin@567",
     role: "admin",
   },
   {
     name: "Aarav Mehta",
     email: "aarav@eventora.com",
-    password: "password123",
+    password: "user@789",
     role: "user",
   },
   {
     name: "Priya Verma",
     email: "priya@eventora.com",
-    password: "password123",
+    password: "user@789",
     role: "user",
   },
   {
     name: "Rohan Kapoor",
     email: "rohan@eventora.com",
-    password: "password123",
+    password: "user@789",
     role: "user",
   },
   {
     name: "Sneha Patel",
     email: "sneha@eventora.com",
-    password: "password123",
+    password: "user@789",
     role: "user",
   },
   {
     name: "Arjun Singh",
     email: "arjun@eventora.com",
-    password: "password123",
+    password: "user@789",
     role: "user",
   },
   {
     name: "Kavya Nair",
     email: "kavya@eventora.com",
-    password: "password123",
+    password: "user@789",
     role: "user",
   },
   {
     name: "Aditya Joshi",
     email: "aditya@eventora.com",
-    password: "password123",
+    password: "user@789",
     role: "user",
   },
   {
     name: "Neha Gupta",
     email: "neha@eventora.com",
-    password: "password123",
+    password: "user@789",
     role: "user",
   },
 ];
@@ -75,7 +75,7 @@ const events = [
     title: "React & Node.js Developer Retreat",
     description:
       "Join us for a 3-day deep dive into modern full-stack web development. Perfect for developers looking to take their skills to the next level.",
-    date: new Date(Date.now() + 10 * 24 * 60 * 60 * 1000), // 10 days from now
+    date: new Date("2026-11-07"),
     location: "Bengaluru, Karnataka",
     category: "Technology",
     totalSeats: 200,
@@ -88,7 +88,7 @@ const events = [
     title: "Neon Nights EDM Festival",
     description:
       "Experience an unforgettable night of EDM, techno, and dazzling light shows with top DJs from across the country.",
-    date: new Date(Date.now() + 20 * 24 * 60 * 60 * 1000), // 20 days from now
+    date: new Date("2026-11-14"),
     location: "Mumbai, Maharashtra",
     category: "Music",
     totalSeats: 500,
@@ -101,7 +101,7 @@ const events = [
     title: "Global Leaders Business Summit",
     description:
       "A premium gathering of CEOs, founders, and investors discussing the future of global commerce, technology, and AI.",
-    date: new Date(Date.now() + 15 * 24 * 60 * 60 * 1000), // 15 days from now
+    date: new Date("2026-11-21"),
     location: "New Delhi, Delhi",
     category: "Business",
     totalSeats: 150,
@@ -114,7 +114,7 @@ const events = [
     title: "Modern Art Expo",
     description:
       "Discover breathtaking contemporary and modern art from emerging and established artists across India.",
-    date: new Date(Date.now() + 5 * 24 * 60 * 60 * 1000), // 5 days from now
+    date: new Date("2026-11-28"),
     location: "Jaipur, Rajasthan",
     category: "Art",
     totalSeats: 300,
@@ -127,7 +127,7 @@ const events = [
     title: "Startup Pitch & Pitch Competition",
     description:
       "Watch promising startups pitch their ideas to investors while entrepreneurs and founders connect and network.",
-    date: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days from now
+    date: new Date("2026-12-05"),
     location: "Hyderabad, Telangana",
     category: "Business",
     totalSeats: 250,
@@ -140,7 +140,7 @@ const events = [
     title: "Cloud Computing Architecture Seminar",
     description:
       "A technical breakdown of scalable cloud solutions, multi-region routing, and serverless computing.",
-    date: new Date(Date.now() + 12 * 24 * 60 * 60 * 1000), // 12 days from now
+    date: new Date("2026-12-12"),
     location: "Pune, Maharashtra",
     category: "Technology",
     totalSeats: 100,
@@ -153,7 +153,7 @@ const events = [
     title: "India Food & Culture Festival",
     description:
       "Celebrate the diverse food, traditions, music, and cultural heritage of different regions of India.",
-    date: new Date(Date.now() + 8 * 24 * 60 * 60 * 1000), // 8 days from now
+    date: new Date("2026-12-19"),
     location: "Kochi, Kerala",
     category: "Food & Culture",
     totalSeats: 800,
@@ -166,7 +166,7 @@ const events = [
     title: "City Marathon 2026",
     description:
       "Take part in an exciting city marathon featuring professional runners, fitness enthusiasts, and participants from across India.",
-    date: new Date(Date.now() + 25 * 24 * 60 * 60 * 1000), // 25 days from now
+    date: new Date("2026-12-20"),
     location: "Ahmedabad, Gujarat",
     category: "Sports",
     totalSeats: 2000,
@@ -179,7 +179,7 @@ const events = [
     title: "Indie Film Showcase",
     description:
       "Experience a curated selection of independent films from emerging Indian filmmakers followed by discussions and networking.",
-    date: new Date(Date.now() + 14 * 24 * 60 * 60 * 1000), // 14 days from now
+    date: new Date("2026-12-26"),
     location: "Kolkata, West Bengal",
     category: "Entertainment",
     totalSeats: 350,
@@ -192,7 +192,7 @@ const events = [
     title: "Photography & Visual Arts Workshop",
     description:
       "Learn professional photography techniques, composition, lighting, and visual storytelling from experienced photographers.",
-    date: new Date(Date.now() + 22 * 24 * 60 * 60 * 1000), // 22 days from now
+    date: new Date("2026-12-27"),
     location: "Chandigarh, Punjab",
     category: "Workshop",
     totalSeats: 80,
